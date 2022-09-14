@@ -1,0 +1,80 @@
+* {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  box-sizing: border-box;
+}
+.bg_image {
+  background-image: url("https://www.themoviedb.org/assets/2/v4/account_pipes/light_blue-a230b623827400e967c6eb7241d88086f2eb9264c0789d0dab15ae6f1df1421a.svg");
+  background-size: cover;
+  background-position: 50% -250px;
+  background-color: #032641;
+  height: 230px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.inner-content {
+  /* background-color: #032641; */
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  max-width: 1236px;
+}
+.icon-user {
+  align-items: center;
+  background-color: #01b4e4;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 64px;
+  justify-content: center;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  height: 150px;
+  width: 150px;
+}
+.user-name {
+  font-size: 32px;
+  font-weight: 700;
+  padding: 8px 16px;
+}
+.content-wapter-flex h3 {
+  font-size: 17.6px;
+  font-weight: 500;
+  line-height: 17.6px;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+.content-about {
+  display: flex;
+  flex-direction: column;
+}
+.content-wapter-flex {
+  display: flex;
+  align-items: center;
+}
+.result-content {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-content span {
+  font-size: 1.5em;
+  color: #ffffff;
+  margin: 8px;
+}
+.name-content {
+  font-size: 1em;
+  padding: 16px;
+}
+.Name-Score {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

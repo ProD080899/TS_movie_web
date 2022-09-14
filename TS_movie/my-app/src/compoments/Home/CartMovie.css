@@ -1,0 +1,214 @@
+/*  */
+* {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+.cart-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  overflow-x: scroll;
+  margin: 48px 0 24px 0;
+  transition: all 1s ease-in-out;
+  /* background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 95%,
+    rgba(0, 0, 0, 5) 100%
+  ); */
+}
+.cart-group::-weblit-scrollbar {
+  width: 30px;
+}
+.header-cart {
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.header-cart h2 {
+  margin-right: 20px;
+  white-space: nowrap;
+}
+.btn1-primary-cart {
+  padding: 4px 16px;
+  transition: all 0.6s ease-in-out;
+  border: none;
+  border-radius: 30px;
+  color: #1ed5a9;
+  background: #fff;
+  cursor: pointer;
+  height: 100%;
+}
+.btn1-primary-cart1 {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 30px;
+  background: #032541;
+  color: #1ed5a9;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  height: 100%;
+}
+.btn1-primary-cart2 {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 30px;
+  background: #1ed5a9;
+  color: #fff;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  height: 100%;
+}
+.btn1-primary-cart3 {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 30px;
+  background: #425c71;
+  color: #fff;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  height: 100%;
+}
+.btn1-primary-cart5 {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 30px;
+  background: #425c71;
+  color: #fff;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  height: 100%;
+}
+.btn1-primary-cart6 {
+  padding: 4px 16px;
+  border: none;
+  border-radius: 30px;
+  background: #fff;
+  color: #1ed5a9;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  height: 100%;
+}
+.selector-wapter {
+  border: 1px solid #032541;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-item {
+  margin: 0 24px 0 8px;
+  position: relative;
+}
+.cart-item img {
+  width: 150px;
+
+  height: 250px;
+  border-radius: 8px;
+  background: #dbdbdb;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-item:hover img {
+  transform: scale(1.2);
+}
+.cart-item:hover .info-cart-item {
+  margin-top: 32px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-item .header-cart2 {
+  background-color: #425c71;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: white;
+}
+.group-header2-cart {
+  display: flex;
+
+  align-items: flex-start;
+}
+.header-cart2 {
+  min-height: 150px;
+  background-color: #425c71;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #fff;
+}
+.text-cart-title {
+  font-weight: 700;
+  font-size: 1em;
+  color: #000;
+  margin-bottom: 8px;
+}
+.text-cart-title:hover {
+  color: rgb(1, 180, 228);
+}
+.percent-cart-item {
+  /* border: 18px solid #010507; */
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 230px;
+  left: 16px;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #010507;
+}
+.percent-cart {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  border-radius: 50%;
+  top: 5px;
+  background-repeat: no-repeat;
+  border: 4px solid #1ed5a9;
+}
+.percent-cart-item span {
+  color: white;
+  font-weight: 400;
+  padding-top: 1px;
+  padding-left: 1px;
+  font-size: 0.8em;
+}
+.text-cart-date {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+.info-cart-item {
+  margin-top: 26px;
+  transition: all 0.3s ease-in-out;
+}
+.main-home {
+  max-width: 1400px;
+  margin: auto;
+}
+.report-login {
+  padding: 16px 0;
+}
+.CircularProgressbar {
+  width: 30% !important;
+  vertical-align: middle;
+  z-index: 999 !important;
+  position: absolute;
+  top: 230px;
+  left: 16px;
+}
+.CircularProgressbar .CircularProgressbar-text {
+  font-size: 28px !important;
+  font-weight: 600 !important;
+}

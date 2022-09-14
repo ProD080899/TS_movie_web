@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: top 0.2s linear;
+}
+.logo-header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo-header img {
+  width: 154px;
+  height: 20px;
+  margin-right: 16px;
+  display: block;
+}
+.header-container {
+  background-color: #032541;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  transition: top 0.2s linear;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  justify-content: center;
+}
+.header-right ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+li {
+  color: white;
+}
+.header-left ul {
+  list-style-type: none;
+}
+li {
+  margin: 0 8px 0 8px;
+}
+.header-media {
+  margin: 0 100px 0 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.icon-header {
+  color: white;
+}
+
+.box-item {
+  border: 1px solid #fff;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.Login-Header-Signin {
+  border: 1px solid #fff;
+  width: 100px;
+  height: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+.Login-Header-SingUp,
+.Login-Header-Singin {
+  border: 1px solid #fff;
+  width: 100px;
+  height: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  display: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.box-item:hover {
+  color: #000;
+  background-color: #fff;
+}
+.Login-Header:hover {
+  color: #000;
+  background-color: #fff;
+}
+.ant-btn {
+  background-color: #032541 !important;
+  color: #fff !important;
+  border: none !important;
+}
+.user-icon {
+  width: 34px;
+  height: 34px;
+  background-color: #01b4e4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}

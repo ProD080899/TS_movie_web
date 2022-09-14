@@ -1,0 +1,44 @@
+* {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+.footer-containers {
+  background-color: #032541;
+  padding: 64px;
+}
+.content-footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+ul {
+  list-style-type: none;
+}
+.text1-footer,
+.item-footer {
+  margin-right: 24px;
+}
+.text1-footer {
+  color: white;
+}
+h1 {
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  color: #fff;
+  white-space: nowrap;
+}
+.text1-footer ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0 !important;
+}
+.username-login {
+  background-color: #fff;
+  font-weight: 600;
+  padding: 8px 4px;
+  color: #21b9d6;
+  border-radius: 4px;
+  margin-top: 16px;
+  padding: 8px 16px;
+}

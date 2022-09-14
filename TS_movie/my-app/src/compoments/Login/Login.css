@@ -1,0 +1,55 @@
+.container-Login {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+}
+#username,
+#password {
+  width: 100%;
+  padding: 0.75rem 0.75rem;
+  margin-bottom: 16px;
+  border-radius: 4px;
+}
+.text-Login {
+  margin: 32px 0 32px 0;
+}
+.btn-Login {
+  border: none;
+  background-color: #01b4e4;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  margin-right: 16px;
+  font-size: 16px;
+}
+.btn-Login:hover {
+  background-color: #032541;
+}
+h2 {
+  margin-bottom: 16px;
+}
+.text-box-login {
+  margin-bottom: 304px;
+}
+.title-report {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  background-color: #d40242;
+  font-weight: 600;
+  color: #fff;
+}
+.report-login-text ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+  padding: 20px;
+}
+.report-login-text {
+  box-shadow: 2px 2px 5px rgb(140, 135, 135);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  display: none;
+}
